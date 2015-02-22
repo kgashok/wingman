@@ -1,0 +1,47 @@
+#- Copyright (c) 2008-2014 James Grenning --- All rights reserved
+#- For exclusive use by participants in 
+#- Wingman Software training courses.
+#- Cannot be used by attendees to train others without 
+#- written permission.
+#- www.wingman-sw.com james@wingman-sw.com
+
+Please read all the instructions before starting.  Email james@wingman-sw.com with
+questions or suggestions.
+
+Objective
+---------
+Write a CircularBuffer module in c and test it.
+
+Requirements
+------------
+A CircularBuffer is sized during create. It stores integers. If you put to a full
+CircularBuffer, it returns false.  If you get from and empty CircularBuffer 
+it returns the default value provided during create.  It is FIFO.
+
+Here is a diagram of some of the CircularBuffer states.
+www.wingman-sw.com/files/cyber-dojo/CircularBuffer.pdf
+
+Starting point
+--------------
+You have the CircularBuffer interface in CircularBuffer.h.  You must develop 
+to that interface.  The architects said so.  
+
+Instructions
+------------
+Write CircularBuffer.c.  Once it compiles, test that the CircularBuffer is working.  
+Use the provided main.c to exercise your CircularBuffer.  Do not use any unit test 
+framework.
+
+Note in main.c that there is a exercise_state variable.  It is initially set to 
+writing.  Once you finish writing code, set and are going to start testing, set 
+the variable to testing. Once you are satisfied that your code works, set it 
+to working. 
+
+Email james@wingman-sw.com when you have completed you CircularBuffer.
+
+Controlling the cyber-dojo test environment
+-------------------------------------------
+Cyber-dojo does not work so great with IE, so please use another browser.
+
+Compile and run main.c by pressing the 'test' button.  Shortcut key alt-t.
+
